@@ -1,0 +1,56 @@
+/*
+
+!.gitignore
+!*.sln
+!*.csproj
+
+!Assets/
+!Assets/**
+
+Assets/**
+
+!Assets/**/
+!Assets/Animations/
+!Assets/Animations/**
+!Assets/Audio/
+!Assets/Audio/**
+!Assets/Input/
+!Assets/Input/**
+!Assets/Materials/
+!Assets/Materials/**
+!Assets/Models/
+!Assets/Models/**
+!Assets/Plugins/
+!Assets/Plugins/**
+!Assets/Prefabs/
+!Assets/Prefabs/**
+!Assets/ProjectDew/
+!Assets/ProjectDew/**
+!Assets/Scenes/
+!Assets/Scenes/**
+!Assets/Scripts/
+!Assets/Scripts/**
+!Assets/Settings/
+!Assets/Settings/**
+!Assets/SO/
+!Assets/SO/**
+!Assets/Sprites/
+!Assets/Sprites/**
+!Assets/Terrain/
+!Assets/Terrain/**
+!Assets/TextMesh Pro/
+!Assets/TextMesh Pro/**
+!Assets/Textures/
+!Assets/Textures/**
+!Assets/UI/
+!Assets/UI/**
+!Assets/UI Toolkit/
+!Assets/UI Toolkit/**
+!Assets/URPSettings/
+!Assets/URPSettings/**
+!Assets/XR/
+!Assets/XR/**
+!Assets/XRI/
+!Assets/XRI/**
+
+Assets/TutorialInfo/

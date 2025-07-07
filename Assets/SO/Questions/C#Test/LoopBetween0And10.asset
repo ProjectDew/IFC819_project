@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463050cb0ba0c3e4e9f8d7c71c94be18, type: 3}
+  m_Name: LoopBetween0And10
+  m_EditorClassIdentifier: 
+  question: Mientras 'i' sea mayor que 0 y menor que 10, sumamos 1 a 'i'.
+  answers:
+  - answer: for (int i = 1; i < 10; i++)
+    isCorrect: 1
+  - answer: while (i < 10) i++;
+    isCorrect: 0
+  - answer: do (i > 0 && i < 10) while i++;
+    isCorrect: 0

@@ -1,0 +1,40 @@
+{
+    "name": "VRInput",
+    "maps": [
+        {
+            "name": "HMD",
+            "id": "618e562d-47ca-4ffd-ab22-d9f6478b966a",
+            "actions": [
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "24052bef-8a0d-475b-be35-9b18d0200f8c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "576fd912-9a1b-4a21-aaa2-e2e33404df40",
+                    "path": "<Accelerometer>/acceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Android",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Android",
+            "bindingGroup": "Android",
+            "devices": []
+        }
+    ]
+}

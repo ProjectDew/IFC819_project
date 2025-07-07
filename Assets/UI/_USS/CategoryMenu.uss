@@ -1,0 +1,44 @@
+.categoryRecordText {
+    font-size: 32px;
+    -unity-text-align: middle-center;
+    color: rgb(192, 192, 192);
+    align-self: center;
+    align-content: flex-end;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.categoryButton {
+    width: 40%;
+    height: 80%;
+    align-items: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    color: rgb(179, 179, 72);
+    -unity-text-align: upper-center;
+    background-color: rgb(0, 0, 0);
+    border-left-color: rgb(107, 22, 159);
+    border-right-color: rgb(107, 22, 159);
+    border-top-color: rgb(107, 22, 159);
+    border-bottom-color: rgb(107, 22, 159);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -unity-font-style: bold;
+    justify-content: flex-end;
+    padding-top: 140px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}

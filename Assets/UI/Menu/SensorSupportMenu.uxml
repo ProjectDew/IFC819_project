@@ -1,0 +1,66 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=d0e6f92692c077742aed79229a6a4dbf&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/UI/USS/SensorSupportMenu.uss?fileID=7433441132597879392&amp;guid=1aa5cb3e85576044d86e5775d7646e0e&amp;type=3#SensorSupportMenu" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(13, 13, 13);">
+        <engine:VisualElement name="Header" style="flex-grow: 1; align-items: center; justify-content: center; height: 15%;">
+            <engine:Label text="Sensores disponibles" name="TitleLabel" class="title" style="font-size: 54px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Body" style="flex-direction: row; width: 80%; align-items: center; justify-content: space-evenly; align-self: center;">
+            <engine:VisualElement name="LeftColumn" style="flex-grow: 1; justify-content: space-evenly; width: 50%; align-items: center;">
+                <engine:VisualElement name="Accelerometer" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Acelerómetro" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Gyroscope" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Giroscopio" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="GravitySensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Gravedad" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="AttitudeSensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Inclinación" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="LinearAccelerationSensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Aceleración lineal" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="MagneticFieldSensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Campo magnético" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="RightColumn" style="flex-grow: 1; align-items: center; justify-content: space-evenly; width: 50%;">
+                <engine:VisualElement name="LightSensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Nivel de luz" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="PressureSensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Presión atmosférica" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="ProximitySensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Proximidad" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="HumiditySensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Humedad" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="AmbientTemperatureSensor" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Temperatura" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+                <engine:VisualElement name="StepCounter" class="container sensorContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                    <engine:Label text="Podómetro" class="sensorName" />
+                    <engine:Label text="??" class="sensorSupported" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="Footer" style="flex-grow: 1; height: 150px; flex-direction: column-reverse;">
+            <engine:Button text="X" name="CloseButton" class="button interruptionButton" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

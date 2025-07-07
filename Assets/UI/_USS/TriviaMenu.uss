@@ -1,0 +1,11 @@
+.answerButton {
+    width: 30%;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 28px;
+    -unity-text-align: middle-center;
+    flex-wrap: nowrap;
+    white-space: pre-wrap;
+}

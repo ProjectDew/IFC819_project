@@ -1,0 +1,25 @@
+.sensorName {
+    left: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 36px;
+    -unity-text-align: middle-left;
+}
+
+.sensorContainer {
+    width: 90%;
+    height: 15%;
+    max-height: 15%;
+}
+
+.sensorSupported {
+    right: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 64px;
+    color: rgb(201, 202, 45);
+}

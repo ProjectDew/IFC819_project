@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463050cb0ba0c3e4e9f8d7c71c94be18, type: 3}
+  m_Name: MRvsAR
+  m_EditorClassIdentifier: 
+  question: "\xBFQu\xE9 diferencia a la realidad mixta (MR) de la aumentada (AR)?"
+  answers:
+  - answer: "La interacci\xF3n entre el mundo real y el virtual"
+    isCorrect: 1
+  - answer: "Que es gen\xE9rica y engloba a la AR y la VR"
+    isCorrect: 0
+  - answer: Que permite alternar entre mundo real y virtual
+    isCorrect: 0

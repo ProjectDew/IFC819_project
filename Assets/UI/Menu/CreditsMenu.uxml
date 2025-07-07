@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/MainMenu.uss?fileID=7433441132597879392&amp;guid=f8825f148c86bb14685f6d0bd8859d57&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UI/USS/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=d0e6f92692c077742aed79229a6a4dbf&amp;type=3#GlobalStyles" />
+    <engine:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/BG_pause.png?fileID=2800000&amp;guid=4f61e7b16fd436b49b01aefcdd3ac611&amp;type=3#BG_pause&quot;);">
+        <engine:VisualElement name="Header" style="flex-grow: 1; height: 20%; justify-content: center; padding-top: 50px; max-height: 20%;">
+            <engine:Label text="CRÉDITOS" name="Credits" class="title" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Body" style="flex-grow: 1; align-self: auto; justify-content: flex-start; padding-bottom: 50px; color: rgb(255, 255, 255); font-size: 30px; -unity-text-align: upper-center;">
+            <engine:Label text="&lt;b&gt;Para la parte visual, este juego utiliza assets extraídos de los siguientes paquetes de la Unity Asset Store:&lt;/b&gt;&#10;&#10;KayKit - Free Sample Pack (for Unity)&#10;Vegetation Stylized Kit&#10;Lowpoly Baker&apos;s House&#10;Stylize Water Texture&#10;Fantasy Skybox FREE&#10;Mobile Power Ups Free Vol.1&#10;&#10;&lt;b&gt;Las imágenes de fondo de los menús se han diseñado usando plantillas de Canva.&lt;/b&gt;&#10;&#10;&lt;b&gt;Programación, game design e integración de assets a cargo de Jose Lirón.&lt;/b&gt;&#10;&#10;El audio está por ver." name="CreditsLabel" style="max-height: 75%; height: 75%; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; margin-right: 50px; margin-left: 50px; white-space: pre-wrap;" />
+            <engine:Button text="Volver al menú" name="CloseCreditsButton" class="button" style="width: 30%;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="NoGenAISeal" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/NO%20GEN%20AI%20seal.png?fileID=2800000&amp;guid=a7097af9edbd66c428f62f5006b7ab2c&amp;type=3#NO GEN AI seal&quot;); width: 384px; height: 296px; position: absolute; rotate: -20deg; right: 50px; bottom: 50px;" />
+    </engine:VisualElement>
+</engine:UXML>

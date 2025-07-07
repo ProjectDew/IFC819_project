@@ -1,0 +1,28 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/_USS/MainMenu.uss?fileID=7433441132597879392&amp;guid=f8825f148c86bb14685f6d0bd8859d57&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UI/_USS/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=d0e6f92692c077742aed79229a6a4dbf&amp;type=3#GlobalStyles" />
+    <engine:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/BG_menu.png?fileID=2800000&amp;guid=861049446a1fcef46bf7792c9a1f52e2&amp;type=3#BG_menu&quot;);">
+        <engine:VisualElement name="TitleContainer" style="flex-grow: 1; height: 30%; justify-content: space-evenly; padding-top: 50px;">
+            <engine:Label text="IFC819" name="GameTitle" class="title" style="color: rgb(201, 202, 45);" />
+            <engine:Label text="Preparación de entornos de desarrollo&#10;para sistemas interactivos 2d y 3d" name="GameSubtitle" style="align-self: center; font-size: 42px; -unity-font-style: normal; white-space: pre-wrap; -unity-text-align: middle-center; color: rgb(192, 192, 192);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Body" style="flex-grow: 1; flex-direction: row; justify-content: space-evenly; height: 65%; max-height: 60%;">
+            <engine:VisualElement name="LeftContainer" class="menuContainer" style="flex-grow: 1; align-items: flex-end; justify-content: flex-start;">
+                <engine:Button text="Demo VR" name="VRDemoButton" class="button menuMainButton" style="height: 61%; align-self: flex-end; margin-top: 15px; margin-right: 0; margin-bottom: 15px; margin-left: 0;">
+                    <engine:Label text="0/16" name="RobotsFoundLabel" class="statsLabel" />
+                </engine:Button>
+            </engine:VisualElement>
+            <engine:VisualElement name="MiddleContainer" class="menuContainer" style="flex-grow: 1; align-self: auto; justify-content: flex-start; padding-bottom: 50px;">
+                <engine:Button text="Prueba de FPS" name="FPSTestButton" class="button" />
+                <engine:Button text="Lista de sensores" name="SensorListButton" class="button" />
+                <engine:Button text="Créditos" name="CreditsButton" class="button" />
+                <engine:Button text="Salir" name="QuitAppButton" class="button" />
+            </engine:VisualElement>
+            <engine:VisualElement name="RightContainer" class="menuContainer" style="flex-grow: 1; justify-content: flex-start;">
+                <engine:Button text="Quiz Runner" name="TriviaButton" class="button menuMainButton" style="height: 61%; align-self: flex-start; margin-top: 15px; margin-right: 0; margin-bottom: 15px; margin-left: 0;">
+                    <engine:Label text="0/30" name="RightAnswersLabel" class="statsLabel" />
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

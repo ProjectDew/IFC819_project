@@ -1,0 +1,30 @@
+.button {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 80%;
+    height: 20%;
+    align-self: center;
+    align-items: center;
+    -unity-font-style: bold;
+    font-size: 38px;
+}
+
+.menuContainer {
+    width: 33%;
+    max-width: 33%;
+}
+
+.menuMainButton {
+    flex-direction: column-reverse;
+}
+
+.statsLabel {
+    color: rgb(192, 192, 192);
+    font-size: 28px;
+}

@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=d0e6f92692c077742aed79229a6a4dbf&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/UI/USS/PauseMenu.uss?fileID=7433441132597879392&amp;guid=8108656904381b642918bb2261c3ed96&amp;type=3#PauseMenu" />
+    <engine:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/BG_pause.png?fileID=2800000&amp;guid=4f61e7b16fd436b49b01aefcdd3ac611&amp;type=3#BG_pause&quot;);">
+        <engine:VisualElement name="TextContainer" style="flex-grow: 1; height: 40%; justify-content: center; padding-top: 50px;">
+            <engine:Label text="PAUSA" name="Pause" class="title" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ButtonsContainer" style="flex-grow: 1; align-self: auto; justify-content: flex-start; height: 70%; max-height: 70%; padding-bottom: 50px;">
+            <engine:Button text="Continuar" name="ContinueButton" class="button pauseButton" />
+            <engine:Button text="Reiniciar" name="RestartButton" class="button pauseButton" />
+            <engine:Button text="Volver al menú" name="LoadMenuButton" class="button pauseButton" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

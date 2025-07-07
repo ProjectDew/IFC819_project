@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=d0e6f92692c077742aed79229a6a4dbf&amp;type=3#GlobalStyles" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; justify-content: center; background-image: url(&quot;project://database/Assets/Textures/BG_pause.png?fileID=2800000&amp;guid=4f61e7b16fd436b49b01aefcdd3ac611&amp;type=3#BG_pause&quot;);">
+        <engine:VisualElement name="Background" class="container" style="flex-grow: 1; width: 90%; height: 85%; max-height: 85%; align-self: center;">
+            <engine:Label text="¡Bien hecho!" name="CongratulationLabel" class="title" style="color: rgb(179, 179, 72);" />
+            <engine:VisualElement name="ScoreContainer" style="flex-grow: 1; justify-content: center; align-items: center; width: 30%;">
+                <engine:Label text="0" name="ScoreLabel" class="title" />
+            </engine:VisualElement>
+            <engine:Button text="Jugar de nuevo" name="PlayAgainButton" class="button" style="width: 30%; height: 15%; max-height: 15%; margin-top: 0; margin-right: 0; margin-bottom: 30px; margin-left: 0;" />
+            <engine:Button text="Volver al menú" name="ReturnToMenuButton" class="button" style="margin-top: 0; margin-right: 0; margin-bottom: 30px; margin-left: 0; width: 30%; height: 15%; max-height: 15%;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

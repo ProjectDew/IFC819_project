@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/IngameMenu.uss?fileID=7433441132597879392&amp;guid=1c24733dd86c37644b87f97ac22b3aac&amp;type=3#IngameMenu" />
+    <Style src="project://database/Assets/UI/USS/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=d0e6f92692c077742aed79229a6a4dbf&amp;type=3#GlobalStyles" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; justify-content: space-between; flex-direction: column; height: 100%; max-height: 100%; align-items: center;">
+        <engine:ProgressBar value="0" name="TimeLeft" high-value="30" style="width: 98%; border-left-color: rgb(201, 202, 45); border-right-color: rgb(201, 202, 45); border-top-color: rgb(201, 202, 45); border-bottom-color: rgb(201, 202, 45); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; top: 10px;" />
+        <engine:VisualElement name="BottomMenu" style="flex-grow: 1; height: 10%; width: 100%; flex-direction: row; justify-content: space-evenly; max-height: 120px; align-items: flex-end;">
+            <engine:VisualElement name="LeftContainer" style="flex-grow: 1; flex-direction: row; align-items: flex-end; align-self: center; width: 33%; max-height: 100%; height: 100%;">
+                <engine:Button text="| |" name="PauseButton" class="button interruptionButton" />
+            </engine:VisualElement>
+            <engine:VisualElement name="MiddleContainer" style="flex-grow: 1; flex-direction: column-reverse; align-items: center; width: 33%; max-height: 100%; height: 100%; justify-content: flex-end;">
+                <engine:Label text="0" name="ScoreLabel" style="-unity-text-align: lower-center; height: 100%; max-height: 100%; font-size: 36px; color: rgb(192, 192, 192); padding-bottom: 10px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="RightContainer" style="flex-grow: 1; flex-direction: row-reverse; align-items: flex-end; align-self: center; width: 33%; max-height: 100%; height: 100%; justify-content: flex-end;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98e19e6fadb480499430e46b9ccede2, type: 3}
+  m_Name: TriviaC#Test
+  m_EditorClassIdentifier: 
+  id: "C# (Evaluaci\xF3n)"
+  questions:
+  - {fileID: 11400000, guid: 3b6bbc7a642d020498847d23f0f2bdca, type: 2}
+  - {fileID: 11400000, guid: ee06a1c27b87dfc43b67303a3b2ac9d1, type: 2}
+  - {fileID: 11400000, guid: 0ea429e15192ed84cb3fd6e315424410, type: 2}
+  - {fileID: 11400000, guid: 49483ae6de7263d46b6fde5418ba1068, type: 2}
+  - {fileID: 11400000, guid: b1f09997fb163cb47a9340cbe1eee35f, type: 2}
+  - {fileID: 11400000, guid: 89a6917e79d597447a25021fa83d9acf, type: 2}
+  - {fileID: 11400000, guid: 78644b30b097ae34592f6e3ff5f3c4fa, type: 2}
+  - {fileID: 11400000, guid: 9f228e87f63b8a34abc4665611ed36d7, type: 2}
+  - {fileID: 11400000, guid: c0ea0897eb4dc0341bc13fb08785a647, type: 2}
+  - {fileID: 11400000, guid: 8d21ea4c45aa633429c8b9fa3d1ebedc, type: 2}
+  - {fileID: 11400000, guid: 579c37699cabdb44594efd7961bd4fff, type: 2}
+  - {fileID: 11400000, guid: 53174636c50783f43afdda00301724b7, type: 2}
+  - {fileID: 11400000, guid: fa8cebba2a888f54790e20d4f9e1c76d, type: 2}
+  - {fileID: 11400000, guid: 31f6dabafe69b054a9938da3e2f428bc, type: 2}
+  - {fileID: 11400000, guid: cdd17b35d7bb09845b771aca22f35945, type: 2}

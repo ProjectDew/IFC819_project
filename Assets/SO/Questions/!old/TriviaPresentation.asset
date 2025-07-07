@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98e19e6fadb480499430e46b9ccede2, type: 3}
+  m_Name: TriviaPresentation
+  m_EditorClassIdentifier: 
+  id: Presentation
+  questions:
+  - {fileID: 11400000, guid: cf2b61a4e4d0a1a46b1d25a55280239f, type: 2}
+  - {fileID: 11400000, guid: 8a42fe711145c2644b4cc0b7bc7c2de4, type: 2}
+  - {fileID: 11400000, guid: 48bc5ee98d788a743a091f9811bd21bd, type: 2}
+  - {fileID: 11400000, guid: 0a2d1a964dac68148a4298b724989d4d, type: 2}
+  - {fileID: 11400000, guid: 0df32719b6603ed44afe35afdf482395, type: 2}
+  - {fileID: 11400000, guid: 73d35d2e36b88d9489e6ba7092d1e0bb, type: 2}
+  - {fileID: 11400000, guid: 121a92f7ee9705f48b27e5da7c87d25e, type: 2}
+  - {fileID: 11400000, guid: 8f3e988ceafefdf48b4df012c08a3916, type: 2}
+  - {fileID: 11400000, guid: c826438c31e6a2e4f826c1561db3adb5, type: 2}
+  - {fileID: 11400000, guid: c9040a0e5faa01c4ab1984cae31e19a1, type: 2}

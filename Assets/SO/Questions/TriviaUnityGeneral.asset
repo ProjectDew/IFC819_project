@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98e19e6fadb480499430e46b9ccede2, type: 3}
+  m_Name: TriviaUnityGeneral
+  m_EditorClassIdentifier: 
+  id: Unity (General)
+  questions:
+  - {fileID: 11400000, guid: 8a42fe711145c2644b4cc0b7bc7c2de4, type: 2}
+  - {fileID: 11400000, guid: 798544516b696e748951fa51e3a3e6c4, type: 2}
+  - {fileID: 11400000, guid: cf2b61a4e4d0a1a46b1d25a55280239f, type: 2}
+  - {fileID: 11400000, guid: 6907ff774d39d0c4195895f528a2937f, type: 2}
+  - {fileID: 11400000, guid: 215b57a2892776c47a48e7f6d8fcf780, type: 2}
+  - {fileID: 11400000, guid: 51c17029353ae3a4f9662ea4e745132c, type: 2}
+  - {fileID: 11400000, guid: 6a4a400f41002f84fb309d415aed56ec, type: 2}
+  - {fileID: 11400000, guid: a71879a96be845e45b9b826895e827f0, type: 2}
+  - {fileID: 11400000, guid: eea241694b541b449aaf1c26166d3e4c, type: 2}
+  - {fileID: 11400000, guid: b8136e7e8a839f046977c36d73b73467, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463050cb0ba0c3e4e9f8d7c71c94be18, type: 3}
+  m_Name: UnityTechnologiesDefinition
+  m_EditorClassIdentifier: 
+  question: "\xBFA qu\xE9 nos referimos cuando hablamos de Unity Technologies?"
+  answers:
+  - answer: A la empresa encargada del desarrollo de Unity
+    isCorrect: 1
+  - answer: Al departamento de I+D de Unity Software Inc.
+    isCorrect: 0
+  - answer: A las herramientas y sistemas que conforman Unity
+    isCorrect: 0
